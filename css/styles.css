@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  text-align: center;
+}
+
+/* table  */
+
+table {
+  border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  border: 4px solid #000000;
+}
+
+.bg-yellow {
+  background-color: #fae208;
+}
+
+.bg-red {
+  background-color: #ff0000;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-blue {
+  background-color: #0000ff;
+}
